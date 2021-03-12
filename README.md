@@ -11,3 +11,8 @@ InforCar is an Android Phone APP about car information like :
 * Num of doors
 
 The project consists in a creation of an DataBase in MYSQL an API in PHP that runs in a AWS server and in the Frontend i have an phone app that receive the information.
+
+
+## DataBase
+
+
