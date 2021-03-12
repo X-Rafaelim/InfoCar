@@ -54,3 +54,17 @@ The Api was made in PHP and runs in one aws web server that was configurated on 
     ]
 }
 ```
+## Android APP
+
+For the final step we have the phone app that the only thing that the app does is show the information about the car models and the user can see kind of an "menu" to choose the car brand and after the model from the brand 
+
+## Future Updates
+
+For some time i will not work on this app because i am taking mini vacations but the updates that the app needs and in a futuru will have is:
+
+* Website to put the information in the DataBase
+* Upgrade the code
+* Add search bar 
+* Add filters to things like : hp, fuel type...
+* And more things that i will think in the future
+
