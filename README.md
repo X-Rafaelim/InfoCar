@@ -26,7 +26,7 @@ Here is a photo of the DataBase
 
 ## API
 
-The Api was made in PHP and runs in one aws web server that was configurated on one instance using apache2, the only does GET methods and the GET returns all the information on the table, in the example bellow you can see the response that ask for the information about brands:
+The Api was made in PHP and runs on an aws web server that was configurated on one instance using apache2, the only does GET methods and the GET returns all the information on the table, in the example bellow you can see the response that ask for the information about brands:
 
 ```
 {
