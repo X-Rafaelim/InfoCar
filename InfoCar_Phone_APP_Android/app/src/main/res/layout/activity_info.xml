@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info">
+
+
+    <ImageView
+        android:id="@+id/imagem_info"
+        android:layout_width="315dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="521dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+    </ImageView>
+
+    <TableLayout
+        android:layout_width="334dp"
+        android:layout_height="398dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/border_info"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <!--1-->
+        <TableRow>
+
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Anos de produção:"
+
+                />
+
+            <TextView
+                android:id="@+id/ano_prod"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Código do motor:"
+
+                />
+
+            <TextView
+                android:id="@+id/cod_motor"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Tipo de Combustível:"
+
+                />
+
+            <TextView
+                android:id="@+id/comb"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Aspiração:"
+
+                />
+
+            <TextView
+                android:id="@+id/aspi"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Tração:"
+
+                />
+
+            <TextView
+                android:id="@+id/trac"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Mudanças:"
+
+                />
+
+            <TextView
+                android:id="@+id/mud"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Potência:"
+
+                />
+
+            <TextView
+                android:id="@+id/cava"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Velocidade máxima:"
+
+                />
+
+            <TextView
+                android:id="@+id/vel_max"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Máximo de RPM:"
+
+                />
+
+            <TextView
+                android:id="@+id/rpm"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Capacidade de tanque:"
+
+                />
+
+            <TextView
+                android:id="@+id/tank"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Peso:"
+
+                />
+
+            <TextView
+                android:id="@+id/kg"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Portas:"
+
+                />
+
+            <TextView
+                android:id="@+id/port"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" Consumo de combustível:"
+
+                />
+
+            <TextView
+                android:id="@+id/cons_comb"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center" />
+
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
