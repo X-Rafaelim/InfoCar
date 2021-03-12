@@ -60,7 +60,7 @@ For the final step we have the phone app that the only thing that the app does i
 
 ## Future Updates
 
-For some time i will not work on this app because i am taking mini vacations but the updates that the app needs and in a futuru will have is:
+For some time i will not work on this app because i am taking mini vacations but the updates that the app needs and in a future will have is:
 
 * Website to put the information in the DataBase
 * Upgrade the code
