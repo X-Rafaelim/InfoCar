@@ -5,19 +5,19 @@
 
 ## Introduction
 
-InfoCar was an app designed to be evaluated as my final project in my professional course that in portugue is called PAP(Prova de Aptidão Profissional).
+InfoCar was an app designed to be evaluated as my final project in my professional course that in Portuguese is called PAP(Prova de Aptidão Profissional).
 
 InforCar is an Android Phone APP about car information like :
 * Horse Power
 * Weight
 * Num of doors
 
-The project consists in a creation of an DataBase in MYSQL an API in PHP that runs in a AWS server and in the Frontend i have an phone app that receive the information.
+The project consists of a creation of a DataBase in MYSQL an API in PHP that runs on an AWS server and on the front-end I have a phone app that receives the information.
 
 
 ## DataBase
 
-The Database is simple only have 3 tables that on contains the car brands the other the models of the cars and in the final table table we have the information about the model
+The Database is simple only have 3 tables that one contains the car brands the other the models of the cars and in the final table we have the information about the model.
 
 Here is a photo of the DataBase
 
@@ -26,7 +26,7 @@ Here is a photo of the DataBase
 
 ## API
 
-The Api was made in PHP and runs on an aws web server that was configurated on one instance using apache2, the only does GET methods and the GET returns all the information on the table, in the example bellow you can see the response that ask for the information about brands:
+The API was made in PHP and runs on an AWS web server that was configurated on one instance using apache2, it only does GET methods and the GET returns all the information on the table, in the example below you can see the response that asks for the information about brands:
 
 ```
 {
@@ -56,15 +56,14 @@ The Api was made in PHP and runs on an aws web server that was configurated on o
 ```
 ## Android APP
 
-For the final step we have the phone app that the only thing that the app does is show the information about the car models and the user can see kind of an "menu" to choose the car brand and after the model from the brand 
+For the final step, we have the phone app that the only thing that the app does is show the information about the car models, and the user can see  a "menu" to choose the car brand and after the model from the brand 
 
 ## Future Updates
 
-For some time i will not work on this app because i am taking mini vacations but the updates that the app needs and in a future will have is:
+For some time I will not work on this app because I am taking mini-vacations, but the updates that the app needs and in the future will have is:
 
 * Website to put the information in the DataBase
 * Upgrade the code
-* Add search bar 
-* Add filters to things like : hp, fuel type...
-* And more things that i will think in the future
-
+* Add search bar
+* Add filters to things like: HP, fuel type...
+* And more things that I will think in the future
